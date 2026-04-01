@@ -1,2 +1,11 @@
-# tryhackme-writeups
-Sharing my progress on TryHackMe as I learn SOC and blue team cybersecurity skills.
+# TryHackMe Write-ups
+
+This repository documents my hands-on learning journey in cybersecurity through TryHackMe.
+
+## Focus Areas
+- SOC Operations
+- Blue Team Skills
+- Threat Detection
+
+## Progress
+- Junior Security Analyst Intro ✅
