@@ -1,54 +1,86 @@
-# Junior Security Analyst Intro - TryHackMe
+# Junior Security Analyst Intro – TryHackMe
 
 ## Overview
-This room is part of the SOC Level 1 path on TryHackMe. It introduces the role of a Junior Security Analyst and how they operate within a Security Operations Center (SOC).
+
+This room provided an introduction to the role of a Junior Security Analyst within a Security Operations Center (SOC).
+It covered the daily responsibilities, team structure, and included a practical simulation of handling real security alerts.
+
+---
+
+## SOC Team Structure
+
+A Security Operations Center (SOC) is responsible for monitoring, detecting, and responding to security incidents.
+
+### Key Roles
+
+* **Tier 1 Analyst (Junior Analyst):**
+  Monitors alerts, performs initial triage, and escalates suspicious activity.
+
+* **Tier 2 Analyst:**
+  Investigates escalated incidents and performs deeper analysis.
+
+* **Tier 3 Analyst (Threat Hunter):**
+  Proactively searches for hidden threats and advanced attacks.
+
+* **SOC Manager:**
+  Oversees the SOC team and ensures smooth operations.
+
+---
+
+## Daily Responsibilities of a Security Analyst
+
+Working in a SOC involves handling a constant stream of alerts and security events.
+
+Typical tasks include:
+
+* Monitoring dashboards and SIEM tools
+* Investigating suspicious activities
+* Responding to security incidents
+* Escalating critical alerts
+* Documenting findings and actions
+
+The role requires attention to detail, quick decision-making, and the ability to follow incident response procedures.
+
+---
+
+## Practical Simulation
+
+In this task, I interacted with a simulated SOC environment to handle a real-world scenario.
+
+### Actions Performed
+
+* Accessed the SOC monitoring dashboard
+* Reviewed active alerts
+* Identified a malicious IP address
+* Escalated the incident to a senior analyst
+* Blocked the IP using a firewall
+
+---
+
+## Investigation Results
+
+* **Malicious IP Address:** 221.181.185.159
+* **Escalated To:** Will Griffin (Senior Analyst)
+* **Firewall Result:** THM{until-we-meet-again}
 
 ---
 
 ## Key Learnings
-Through this room, I gained a better understanding of how SOC teams work and why continuous monitoring is critical in cybersecurity.
 
-A SOC (Security Operations Center) is responsible for monitoring alerts, detecting threats, and responding to incidents.
+This lab helped me understand how security analysts operate in real environments.
 
----
+I gained hands-on experience in:
 
-## Role of a Junior Security Analyst
-A Junior Security Analyst is responsible for:
-- Monitoring and analyzing security alerts
-- Investigating suspicious activities
-- Escalating incidents when needed
-- Working with team members
-- Continuously improving security knowledge
+* Alert triage and investigation
+* Incident escalation procedures
+* Basic threat mitigation (blocking malicious IPs)
+* Working within a SOC workflow
 
 ---
 
-## Real-World Relevance
-The room highlighted real-world examples such as data breaches, DDoS attacks, and supply chain attacks. This shows how important SOC teams are in protecting organizations.
+## Conclusion
+
+This room gave me a solid foundation in SOC operations and the responsibilities of a Junior Security Analyst.
+It also reinforced the importance of structured processes and teamwork in handling security incidents effectively.
 
 ---
-
-## Answer
-**Which team do you work with as a Junior Security Analyst?**
-
-SOC
-
----
-
-## Personal Reflection
-Although this was an introductory room, it gave me a solid understanding of the SOC environment and the responsibilities of a security analyst.
-
-It helped me see how theoretical knowledge connects to real-world cybersecurity operations.
-
----
-
-## Skills Gained
-- Security Monitoring
-- Threat Awareness
-- SOC Fundamentals
-
----
-
-## Next Steps
-- Continue SOC Level 1 path
-- Learn SIEM tools
-- Practice log analysis
