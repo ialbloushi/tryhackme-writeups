@@ -1,4 +1,5 @@
-# Junior Security Analyst Intro – TryHackMe
+SOC Level 1 – Junior Security Analyst Intro (TryHackMe)
+> Hands-on SOC simulation focused on alert triage, escalation, and basic incident response.
 
 ## Overview
 
@@ -78,9 +79,10 @@ I gained hands-on experience in:
 
 ---
 
-## Conclusion
+## Personal Reflection
 
-This room gave me a solid foundation in SOC operations and the responsibilities of a Junior Security Analyst.
-It also reinforced the importance of structured processes and teamwork in handling security incidents effectively.
+This lab gave me my first practical exposure to how a SOC operates in a real-world scenario.
 
----
+What stood out to me the most was how structured the workflow is — from detecting an alert to escalating and mitigating it. Even though the task was simple, it showed how critical each step is in preventing potential threats.
+
+I’m currently focusing on developing my skills in blue team operations, and this lab was a great starting point toward that goal.
