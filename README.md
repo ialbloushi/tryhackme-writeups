@@ -9,4 +9,4 @@ This repository documents my hands-on learning journey in cybersecurity through 
 
 ## Progress
 
-- [Junior Security Analyst Intro](./01-junior-security-analyst-intro.md) ✅
+- [01 – Junior Security Analyst Intro](./soc-level-1/01-junior-security-analyst-intro.md)
