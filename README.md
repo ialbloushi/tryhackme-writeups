@@ -9,6 +9,16 @@ This repository documents my hands-on learning journey in cybersecurity through 
 
 ## 📈 Progress
 
-- [01 – Junior Security Analyst Intro](./soc-level-1/01-junior-security-analyst-intro.md) ✅
-- [02 – SOC Role in Blue Team](./soc-level-1/02-soc-role-in-blue-team.md) ✅
-- [03 – Humans as Attack Vectors](./soc-level-1/03-humans-as-attack-vectors.md) ✅
+### SOC Level 1 Path
+
+- ✅ **01 — Junior Security Analyst Intro**  
+  → [View Write-up](./soc-level-1/01-junior-security-analyst-intro.md)
+
+- ✅ **02 — SOC Role in Blue Team**  
+  → [View Write-up](./soc-level-1/02-soc-role-in-blue-team.md)
+
+- ✅ **03 — Security Analyst Journey**  
+  → [View Write-up](./soc-level-1/03-security-analyst-journey.md)
+
+- ✅ **04 — Systems as Attack Vectors**  
+  → [View Write-up](./soc-level-1/04-systems-as-attack-vectors.md)
