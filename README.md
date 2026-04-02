@@ -1,6 +1,6 @@
 # 🛡️ TryHackMe Write-ups
 
-This repository showcases my hands-on cybersecurity learning journey through TryHackMe, with a focus on practical SOC operations and blue team skills.
+This repository documents my hands-on cybersecurity learning journey through TryHackMe, focusing on SOC operations and blue team practices.
 
 ---
 
@@ -12,7 +12,9 @@ This repository showcases my hands-on cybersecurity learning journey through Try
 
 ---
 
-## 📈 Progress (SOC Level 1)
+## 📘 SOC Level 1 Path
+
+### 🔹 Blue Team Introduction
 
 | #  | Room                              | Status |
 |----|----------------------------------|--------|
@@ -28,12 +30,12 @@ This repository showcases my hands-on cybersecurity learning journey through Try
 Each write-up focuses on:
 
 - Real-world SOC scenarios  
-- Hands-on investigations  
-- Practical security concepts  
-- Clear and structured documentation  
+- Alert investigation and triage  
+- Threat detection and response  
+- Practical blue team workflows  
 
 ---
 
 ## 📌 Note
 
-This repository is continuously updated as I progress through more rooms and labs.
+This repository is continuously updated as I progress through the SOC Level 1 path.
