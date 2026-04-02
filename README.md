@@ -8,4 +8,5 @@ This repository documents my hands-on learning journey in cybersecurity through 
 - Threat Detection
 
 ## Progress
+
 - [Junior Security Analyst Intro](./01-junior-security-analyst-intro.md) ✅
