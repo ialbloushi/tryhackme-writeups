@@ -45,7 +45,7 @@ Examples include:
 
 ### Key Insight
 
-* Helps understand what systems store or process
+* Helps understand what systems store or process data
 * Critical for determining impact of an alert
 
 ---
@@ -62,8 +62,8 @@ In this task, an alert involved a user downloading a financial report from a ser
 
 ### Key Insight
 
-* Context determines whether activity is malicious or normal
-* Not all alerts indicate threats
+* Context is critical in distinguishing normal vs malicious activity
+* Business role and data sensitivity influence alert verdict
 
 ---
 
@@ -74,7 +74,7 @@ Network diagrams help analysts understand infrastructure and traffic flow.
 ### Investigation Flow
 
 * External attacker performed VPN brute force
-* Gained access through VPN
+* Gained access through VPN after successful brute force
 * Attempted to scan database subnet
 * Moved laterally to office subnet
 
