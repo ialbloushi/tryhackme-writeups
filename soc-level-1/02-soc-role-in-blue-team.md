@@ -1,10 +1,11 @@
-SOC Level 1 – SOC Role in Blue Team (TryHackMe)
+# SOC Level 1 – SOC Role in Blue Team (TryHackMe)
 
 > Understanding SOC structure, team roles, and blue team operations in real-world environments.
 
 ## Overview
 
 This room focused on how Security Operations Centers (SOC) operate within organizations.
+
 It explained the team structure, different security roles, and how blue team operations work together to defend systems.
 
 ---
@@ -127,6 +128,11 @@ In this task, I analyzed multiple security scenarios and assigned the appropriat
 * Reviewed different incident scenarios
 * Identified the appropriate security role
 * Applied decision-making based on SOC structure
+
+### Key Insight
+
+* SOC roles require clear decision-making based on context
+* Understanding team responsibilities improves incident handling
 
 ---
 
