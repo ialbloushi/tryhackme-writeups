@@ -1,10 +1,11 @@
-SOC Level 1 – Humans as Attack Vectors (TryHackMe)
+# SOC Level 1 – Humans as Attack Vectors (TryHackMe)
 
 > Understanding how attackers exploit human behavior and how SOC teams detect and mitigate these threats.
 
 ## Overview
 
 This room focused on one of the most critical aspects of cybersecurity — the human factor.
+
 It explained why humans are considered the weakest link in security and how attackers exploit human psychology using social engineering techniques.
 
 The lab also demonstrated how SOC analysts detect, investigate, and help mitigate these types of attacks.
@@ -88,6 +89,11 @@ In this task, I interacted with a simulated SOC environment to handle human-rela
 * Identified potential security issues
 * Applied security policy improvements
 * Completed mitigation-related tasks
+
+### Key Insight
+
+* Human-related threats require both technical and behavioral analysis
+* SOC analysts must investigate user activity, not just system alerts
 
 ---
 
