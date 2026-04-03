@@ -1,4 +1,5 @@
 SOC Level 1 – Humans as Attack Vectors (TryHackMe)
+
 > Understanding how attackers exploit human behavior and how SOC teams detect and mitigate these threats.
 
 ## Overview
@@ -16,7 +17,7 @@ Attackers often prefer targeting people instead of systems because it is easier 
 
 Instead of exploiting vulnerabilities, attackers may simply trick users into giving access.
 
-### Key Concept
+### Key Insight
 
 * Humans are the **weakest link** in cybersecurity
 * Attackers target humans to gain **access** to systems, accounts, or sensitive data
@@ -29,36 +30,22 @@ These attacks rely heavily on **social engineering**, which manipulates victims 
 
 ### Common Techniques
 
-* **Phishing:**
+* **Phishing**
   Fake emails designed to trick users into clicking malicious links or entering credentials
 
-* **Malware Delivery:**
+* **Malware Delivery**
   Users are tricked into downloading and executing malicious files
 
-* **Deepfakes & Impersonation:**
+* **Deepfakes & Impersonation**
   Attackers pretend to be trusted individuals (e.g., IT staff or executives)
 
-* **Emotional Manipulation:**
+* **Emotional Manipulation**
   Creating urgency, fear, or curiosity to influence decisions
 
----
+### Key Insight
 
-## Practical Analysis
-
-During the lab, I explored how different human-targeted attacks work in real scenarios.
-
-### Key Observations
-
-* Phishing emails often include:
-  - Fake sender addresses
-  - Malicious links to fake login pages
-  - Attachments containing malware
-
-* Fake websites may imitate legitimate services to steal credentials
-
-* CAPTCHA or verification prompts can be abused to execute malicious actions
-
-* Impersonation attacks rely on trust rather than technical exploits
+* Social engineering relies on **psychology, not technical exploits**
+* Trust is the primary target in human-based attacks
 
 ---
 
@@ -82,6 +69,11 @@ SOC analysts are responsible for:
 * Detecting suspicious activity
 * Investigating alerts
 * Responding to incidents involving human error
+
+### Key Insight
+
+* Prevention alone is not enough
+* Detection and response are critical in human-based attacks
 
 ---
 
@@ -110,13 +102,13 @@ In this task, I interacted with a simulated SOC environment to handle human-rela
 
 This lab provided valuable insight into human-focused cyber attacks.
 
-I learned:
+I gained hands-on experience in:
 
-* How attackers use social engineering to bypass technical defenses
-* The importance of user awareness in cybersecurity
-* Common phishing and impersonation techniques
-* The role of SOC analysts in detecting and responding to human-based threats
-* The difference between mitigation and detection
+* Understanding social engineering attacks
+* Identifying phishing and impersonation techniques
+* Recognizing human-related security risks
+* Applying mitigation strategies
+* Understanding the SOC role in detection and response
 
 ---
 
@@ -124,6 +116,6 @@ I learned:
 
 This lab highlighted how critical the human factor is in cybersecurity.
 
-What stood out to me most is that even with strong technical defenses, a single human mistake can lead to a full compromise. It showed that cybersecurity is not only about tools and systems, but also about educating users and building awareness.
+What stood out most is that even with strong technical defenses, a single human mistake can lead to a full compromise. It showed that cybersecurity is not only about tools and systems, but also about user awareness and behavior.
 
-Understanding how attackers think and exploit human behavior is essential for any SOC analyst, and this lab gave me a solid foundation in that area.
+This lab strengthened my understanding of how attackers exploit human psychology and the importance of combining prevention, detection, and user education.
