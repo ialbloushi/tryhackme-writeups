@@ -80,6 +80,11 @@ In this task, I interacted with a simulated SOC environment.
 * Analysed user and sender information
 * Submitted an alert report
 
+### Key Insight
+
+* Clear reporting is essential before escalation
+* Accurate analysis improves SOC decision-making
+
 ---
 
 ## Investigation Results
@@ -120,6 +125,11 @@ Escalation is required when an alert needs deeper analysis or action.
 * **First Flag:** THM{good_job_escalating_your_first_alert}
 * **Second Flag:** THM{looks_like_webshell_via_old_exchange}
 
+### Key Insight
+
+* Proper escalation ensures incidents are handled by the right team
+* Clear reporting supports faster investigation at higher levels
+
 ---
 
 ## SOC Communication
@@ -143,8 +153,8 @@ Communication is critical in SOC operations.
 
 ## Communication Results
 
-* **Contact Manager First:** Nay
-* **Report Missed Attack to L2:** Yea
+* **Contact Manager First:** No
+* **Report Missed Attack to L2:** Yes
 
 ---
 
