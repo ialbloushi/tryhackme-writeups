@@ -1,4 +1,4 @@
-SOC Level 1 – SOC Workbooks and Lookups (TryHackMe)
+# SOC Level 1 – SOC Workbooks and Lookups (TryHackMe)
 
 > Discovering how SOC analysts use workbooks and lookup data (identity, assets, and network diagrams) to improve alert triage and investigation.
 
@@ -120,9 +120,16 @@ They ensure:
 
 ---
 
-## Workbooks Practice
+## Practical Simulation
 
-In this task, I applied workbook steps in a simulated environment.
+In this task, I applied SOC workbook steps in a simulated investigation environment.
+
+### Actions Performed
+
+* Used identity inventory to verify user details
+* Checked asset inventory for system context
+* Analysed network activity using diagrams
+* Applied workbook stages (Enrichment → Investigation → Escalation)
 
 ### Flags
 
@@ -132,7 +139,8 @@ In this task, I applied workbook steps in a simulated environment.
 
 ### Key Insight
 
-* Practical use of structured workflows improves investigation accuracy
+* Structured workflows significantly improve investigation accuracy
+* Combining multiple data sources leads to better decision-making
 
 ---
 
