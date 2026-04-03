@@ -1,127 +1,138 @@
 # SOC Level 1 – Humans as Attack Vectors (TryHackMe)
 
-> Understanding how attackers exploit human behavior and how SOC teams detect and mitigate these threats.
+> Understanding how attackers exploit human behavior through social engineering techniques.
 
 ## Overview
 
-This room focused on one of the most critical aspects of cybersecurity — the human factor.
+This room focused on humans as attack vectors and how attackers manipulate individuals to gain unauthorized access to systems.
 
-It explained why humans are considered the weakest link in security and how attackers exploit human psychology using social engineering techniques.
-
-The lab also demonstrated how SOC analysts detect, investigate, and help mitigate these types of attacks.
+It highlighted common social engineering techniques and how human mistakes can lead to security breaches.
 
 ---
 
-## The Human Element
+## Social Engineering
 
-Attackers often prefer targeting people instead of systems because it is easier to manipulate human behavior than to bypass technical defenses.
-
-Instead of exploiting vulnerabilities, attackers may simply trick users into giving access.
-
-### Key Insight
-
-* Humans are the **weakest link** in cybersecurity
-* Attackers target humans to gain **access** to systems, accounts, or sensitive data
-
----
-
-## Attacks on Humans
-
-These attacks rely heavily on **social engineering**, which manipulates victims into performing actions that benefit the attacker.
+Social engineering is the process of manipulating people into revealing sensitive information or performing actions that compromise security.
 
 ### Common Techniques
 
 * **Phishing**
-  Fake emails designed to trick users into clicking malicious links or entering credentials
+  Sending fake emails to trick users into revealing credentials
 
-* **Malware Delivery**
-  Users are tricked into downloading and executing malicious files
+* **Spear Phishing**
+  Targeted phishing attacks aimed at specific individuals
 
-* **Deepfakes & Impersonation**
-  Attackers pretend to be trusted individuals (e.g., IT staff or executives)
+* **Vishing (Voice Phishing)**
+  Using phone calls to deceive victims
 
-* **Emotional Manipulation**
-  Creating urgency, fear, or curiosity to influence decisions
+* **Smishing (SMS Phishing)**
+  Sending malicious links via text messages
 
 ### Key Insight
 
-* Social engineering relies on **psychology, not technical exploits**
-* Trust is the primary target in human-based attacks
+* Humans are often the weakest link in security
+* Social engineering attacks rely on trust and deception
 
 ---
 
-## Defending Humans
+## Human Weaknesses
 
-Defending against these attacks involves both **mitigation** and **detection**.
+Attackers exploit common human traits to succeed.
 
-### Mitigation Techniques
+### Examples
 
-* Anti-phishing tools to block malicious emails
-* Antivirus / EDR solutions to prevent malware execution
-* Security awareness training for employees
-* "Trust but verify" principle to validate suspicious requests
-
-### Detection Role (SOC)
-
-Even with strong defenses, some attacks bypass protections.
-
-SOC analysts are responsible for:
-
-* Detecting suspicious activity
-* Investigating alerts
-* Responding to incidents involving human error
+* Trusting authority figures
+* Acting under pressure or urgency
+* Lack of security awareness
+* Curiosity or fear
 
 ### Key Insight
 
-* Prevention alone is not enough
-* Detection and response are critical in human-based attacks
+* Psychological manipulation is a powerful attack method
+* Awareness reduces the risk of successful attacks
+
+---
+
+## Real-World Impact
+
+Human-based attacks can lead to serious consequences.
+
+### Examples
+
+* Credential theft
+* Unauthorized system access
+* Financial fraud
+* Data breaches
+
+### Key Insight
+
+* A single mistake can compromise an entire organization
+* Human errors can bypass technical security controls
+
+---
+
+## Prevention Methods
+
+Organizations implement measures to reduce human-related risks.
+
+### Controls
+
+* Security awareness training
+* Phishing simulations
+* Multi-Factor Authentication (MFA)
+* Email filtering and protection tools
+
+### Key Insight
+
+* Training and awareness are critical defenses
+* Combining human awareness with technical controls improves security
 
 ---
 
 ## Practical Simulation
 
-In this task, I interacted with a simulated SOC environment to handle human-related security risks.
+In this task, I analyzed scenarios involving human-based attacks and identified appropriate responses.
 
 ### Actions Performed
 
-* Accessed the TryHackMe security dashboard
-* Investigated users marked as "Employees at Risk"
-* Identified potential security issues
-* Applied security policy improvements
-* Completed mitigation-related tasks
+* Reviewed social engineering scenarios
+* Identified attack types (phishing, vishing, etc.)
+* Determined the appropriate response
+* Applied security awareness concepts
 
 ### Key Insight
 
-* Human-related threats require both technical and behavioral analysis
-* SOC analysts must investigate user activity, not just system alerts
+* Identifying attack patterns helps prevent social engineering attempts
+* User awareness plays a critical role in defense
 
 ---
 
 ## Investigation Results
 
-* **Employees at Risk Flag:** THM{anyone_else_at_risk?}
-* **Security Policy Flag:** THM{human_protection_expert!}
+* **Challenge Status:** Completed
+* **Flag:** THM{phishing_is_not_always_obvious}
 
 ---
 
 ## Key Learnings
 
-This lab provided valuable insight into human-focused cyber attacks.
+This lab improved my understanding of how attackers exploit human behavior.
 
 I gained hands-on experience in:
 
-* Understanding social engineering attacks
-* Identifying phishing and impersonation techniques
-* Recognizing human-related security risks
-* Applying mitigation strategies
-* Understanding the SOC role in detection and response
+* Identifying social engineering attacks
+* Understanding human vulnerabilities
+* Recognizing real-world attack scenarios
+* Applying preventive measures
 
 ---
 
 ## Personal Reflection
 
-This lab highlighted how critical the human factor is in cybersecurity.
+This lab showed that humans are often the easiest target for attackers.
 
-What stood out most is that even with strong technical defenses, a single human mistake can lead to a full compromise. It showed that cybersecurity is not only about tools and systems, but also about user awareness and behavior.
+What stood out most is how simple techniques like phishing can bypass even strong technical defenses if users are not aware.
 
-This lab strengthened my understanding of how attackers exploit human psychology and the importance of combining prevention, detection, and user education.
+It also highlighted the importance of training and awareness as a key part of cybersecurity.
+
+This lab strengthened my understanding of the human factor in security and the importance of user education.
