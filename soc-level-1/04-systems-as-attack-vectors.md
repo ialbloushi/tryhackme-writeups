@@ -1,9 +1,11 @@
-SOC Level 1 – Systems as Attack Vectors (TryHackMe)
+# SOC Level 1 – Systems as Attack Vectors (TryHackMe)
+
 > Understanding how attackers exploit systems, vulnerabilities, and misconfigurations to gain access.
 
 ## Overview
 
 This room focused on systems as attack vectors and how attackers target infrastructure instead of humans.
+
 It explained how vulnerabilities and misconfigurations can lead to serious security breaches, even without user interaction.
 
 ---
@@ -32,22 +34,27 @@ Most attacks start by gaining access to a system, then the attacker executes the
 
 ### Common Attack Methods
 
-* **Weak Passwords**  
-  Reusing or using simple passwords increases the risk of compromise.
+* **Weak Passwords**
+  Reusing or using simple passwords increases the risk of compromise
 
-* **Malicious Devices (e.g., USB Rubber Ducky)**  
-  Automatically executes malicious commands when plugged in.
+* **Malicious Devices (e.g., USB Rubber Ducky)**
+  Automatically executes malicious commands when plugged in
 
-* **Exploiting Vulnerabilities**  
-  Attackers use known flaws in software to gain access.
+* **Exploiting Vulnerabilities**
+  Attackers use known flaws in software to gain access
 
-* **Supply Chain Attacks**  
-  Malware is introduced through trusted software or dependencies.
+* **Supply Chain Attacks**
+  Malware is introduced through trusted software or dependencies
 
 ### Key Terms
 
-* **Vulnerability:** A security flaw that can be exploited  
-* **Supply Chain Attack:** Compromising trusted software to infect many systems  
+* **Vulnerability:** A security flaw that can be exploited
+* **Supply Chain Attack:** Compromising trusted software to infect many systems
+
+### Key Insight
+
+* Systems are often the initial entry point for attackers
+* Weak security practices increase the risk of compromise
 
 ---
 
@@ -57,11 +64,11 @@ All software contains flaws, but some are more critical than others.
 
 ### Important Concepts
 
-* **Zero-Day Vulnerability**  
-  A vulnerability discovered before a patch is available.
+* **Zero-Day Vulnerability**
+  A vulnerability discovered before a patch is available
 
-* **CVE (Common Vulnerabilities and Exposures)**  
-  A unique ID assigned to publicly known vulnerabilities.
+* **CVE (Common Vulnerabilities and Exposures)**
+  A unique ID assigned to publicly known vulnerabilities
 
 ### Examples
 
@@ -71,8 +78,6 @@ All software contains flaws, but some are more critical than others.
 
 ### Responding to Vulnerabilities
 
-The primary solution is:
-
 * **Patch (Update the system)**
 
 Additional measures include:
@@ -80,6 +85,11 @@ Additional measures include:
 * Restricting access to trusted IPs
 * Applying temporary mitigations
 * Blocking attack patterns using firewalls or WAFs
+
+### Key Insight
+
+* Vulnerabilities are inevitable in software
+* Regular patching is critical to reduce risk
 
 ---
 
@@ -99,19 +109,19 @@ Even a secure system can be compromised if configured incorrectly.
 
 ### Responding to Misconfigurations
 
-* **Penetration Testing**  
+* **Penetration Testing**
   Simulates attacks to identify weaknesses
 
-* **Vulnerability Scanning**  
+* **Vulnerability Scanning**
   Detects outdated or insecure configurations
 
-* **Configuration Audits**  
+* **Configuration Audits**
   Ensures systems follow security best practices
 
 ### Key Insight
 
-* Misconfigurations are common and dangerous  
-* They require **proper configuration**, not patches  
+* Misconfigurations are common and dangerous
+* They require **proper configuration**, not patches
 
 ---
 
