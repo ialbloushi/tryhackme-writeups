@@ -27,10 +27,11 @@ This repository documents my hands-on cybersecurity learning journey through Try
 
 ### 🔹 SOC Team Internals
 
-| #  | Room                                                   | Status |
-| -- | ------------------------------------------------------ | ------ |
-| 05 | [Alert Triage](./soc-level-1/05-alert-triage.md)       | ✅      |
-| 06 | [Alert Reporting](./soc-level-1/06-alert-reporting.md) | ✅      |
+| #  | Room                                                                       | Status |
+| -- | -------------------------------------------------------------------------- | ------ |
+| 05 | [Alert Triage](./soc-level-1/05-alert-triage.md)                           | ✅      |
+| 06 | [Alert Reporting](./soc-level-1/06-alert-reporting.md)                     | ✅      |
+| 07 | [SOC Workbooks and Lookups](./soc-level-1/07-soc-workbooks-and-lookups.md) | ✅      |
 
 ---
 
