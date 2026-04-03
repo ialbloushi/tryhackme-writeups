@@ -1,10 +1,11 @@
 SOC Level 1 – SOC Role in Blue Team (TryHackMe)
+
 > Understanding SOC structure, team roles, and blue team operations in real-world environments.
 
 ## Overview
 
-This room provided a deeper understanding of how Security Operations Centers (SOC) operate within organizations.
-It focused on team structure, different security roles, and how blue team operations work together to defend systems.
+This room focused on how Security Operations Centers (SOC) operate within organizations.
+It explained the team structure, different security roles, and how blue team operations work together to defend systems.
 
 ---
 
@@ -14,37 +15,44 @@ Organizations follow a structured approach to cybersecurity, with responsibiliti
 
 ### Key Levels
 
-* **Executives (CEO / CFO):**
-  Focus on business strategy and overall operations.
+* **Executives (CEO / CFO)**
+  Focus on business strategy and overall operations
 
-* **Security Leadership (CISO / CTO):**
-  Responsible for defining and leading cybersecurity strategy.
+* **Security Leadership (CISO / CTO)**
+  Responsible for defining and leading cybersecurity strategy
 
-* **Security Managers:**
-  Oversee teams and ensure smooth security operations.
+* **Security Managers**
+  Oversee teams and ensure smooth security operations
 
-* **Technical Roles:**
-  - SOC Analysts  
-  - Security Engineers  
-  - Penetration Testers  
-  - GRC Specialists  
+* **Technical Roles**
+  SOC Analysts, Security Engineers, Penetration Testers, and GRC Specialists handle technical security tasks
 
-These roles handle the technical implementation of security.
+### Key Insight
+
+* Cybersecurity is structured across multiple levels
+* Each level has a specific role in protecting the organization
 
 ---
 
 ## Security Teams
 
-Cybersecurity teams are typically divided into three main groups:
+Cybersecurity teams are typically divided into three main groups.
 
-* **Red Team:**
-  Simulates attacks to identify vulnerabilities.
+### Team Types
 
-* **Blue Team:**
-  Focuses on monitoring, detection, and incident response.
+* **Red Team**
+  Simulates attacks to identify vulnerabilities
 
-* **GRC Team:**
-  Handles governance, risk management, and compliance.
+* **Blue Team**
+  Focuses on monitoring, detection, and incident response
+
+* **GRC Team**
+  Handles governance, risk management, and compliance
+
+### Key Insight
+
+* Security teams work together to improve overall defense
+* Each team has a different but complementary role
 
 ---
 
@@ -54,18 +62,23 @@ The SOC acts as the central point for monitoring and responding to threats.
 
 ### Key Responsibilities
 
-* Monitoring alerts and logs  
-* Investigating suspicious activity  
-* Responding to incidents  
-* Creating detection rules  
-* Documenting findings  
+* Monitoring alerts and logs
+* Investigating suspicious activity
+* Responding to incidents
+* Creating detection rules
+* Documenting findings
 
 ### SOC Roles
 
-* **L1 Analyst:** Initial alert triage  
-* **L2 Analyst:** Deeper investigation  
-* **Engineers:** Maintain security systems  
-* **SOC Manager:** Oversees operations  
+* **L1 Analyst** → Initial alert triage
+* **L2 Analyst** → Deeper investigation
+* **Engineers** → Maintain security systems
+* **SOC Manager** → Oversees operations
+
+### Key Insight
+
+* The SOC is responsible for real-time threat detection and response
+* Clear role distribution improves efficiency and response time
 
 ---
 
@@ -73,12 +86,17 @@ The SOC acts as the central point for monitoring and responding to threats.
 
 Serious incidents are handled by specialized teams such as CIRT or CSIRT.
 
-These teams are responsible for:
+### Responsibilities
 
-* Responding to major incidents  
-* Investigating security breaches  
-* Performing digital forensics  
-* Recovering affected systems  
+* Responding to major incidents
+* Investigating security breaches
+* Performing digital forensics
+* Recovering affected systems
+
+### Key Insight
+
+* Incident response requires specialized skills
+* Proper handling reduces impact and recovery time
 
 ---
 
@@ -88,48 +106,56 @@ Starting as a SOC Analyst is a common entry point into cybersecurity.
 
 ### Typical Progression
 
-1. SOC L1 Analyst  
-2. SOC L2 Analyst  
-3. Specialized or engineering roles  
-4. Management positions  
+* SOC L1 Analyst
+* SOC L2 Analyst
+* Specialized or engineering roles
+* Management positions
+
+### Key Insight
+
+* SOC roles provide a strong foundation in cybersecurity
+* Experience in SOC leads to multiple career paths
 
 ---
 
-## Practical Challenge
+## Practical Simulation
 
-In the final task, I analyzed multiple security scenarios and assigned the appropriate roles to handle each case.
+In this task, I analyzed multiple security scenarios and assigned the appropriate roles to each situation.
 
 ### Actions Performed
 
-* Reviewed different incident scenarios  
-* Identified the appropriate security role  
-* Applied decision-making based on SOC structure  
+* Reviewed different incident scenarios
+* Identified the appropriate security role
+* Applied decision-making based on SOC structure
 
 ---
 
-## Results
+## Investigation Results
 
-* **Challenge Status:** Completed  
+* **Challenge Status:** Completed
 * **Flag:** THM{trysecureme_is_secured}
 
 ---
 
 ## Key Learnings
 
-This lab helped me understand how SOC teams operate and how responsibilities are distributed across different roles.
+This lab improved my understanding of SOC operations and team structure.
 
-I gained a clearer understanding of:
+I gained hands-on understanding of:
 
-* SOC structure and workflows  
-* Roles within blue team operations  
-* Incident handling and escalation logic  
+* SOC structure and workflows
+* Roles within blue team operations
+* Incident handling and escalation
+* Coordination between security teams
 
 ---
 
 ## Personal Reflection
 
-This lab helped me better understand how security teams are organized in real-world environments.
+This lab showed how security teams operate in real-world environments.
 
-What stood out to me was how each role has a clear responsibility, and how important coordination is between teams during incidents. It showed me that cybersecurity is not just about tools, but also about structure and teamwork.
+What stood out most is how each role has a clear responsibility, and how coordination between teams is critical during incidents.
 
-I am continuing to focus on developing my skills in blue team operations, and this lab gave me a clearer picture of the career path ahead.
+It also highlighted that cybersecurity is not only about tools, but also about structure, communication, and teamwork.
+
+This lab strengthened my understanding of blue team operations and the SOC career path.
