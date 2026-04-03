@@ -117,6 +117,11 @@ In this task, I interacted with a simulated SOC dashboard and performed alert tr
 * Determined verdicts
 * Completed alert triage workflow
 
+### Key Insight
+
+* Effective triage depends on prioritisation and accurate analysis
+* Not all alerts are real threats — validation is critical
+
 ---
 
 ## Investigation Results
@@ -131,7 +136,7 @@ In this task, I interacted with a simulated SOC dashboard and performed alert tr
 
 ### Alert Prioritisation
 
-* **Prioritise medium/low first:** Yes
+* **Prioritise high severity first:** Yes
 * **Start with newest alerts:** No
 * **First priority alert:** Potential Data Exfiltration
 
