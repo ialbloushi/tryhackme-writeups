@@ -1,10 +1,11 @@
-SOC Level 1 – Alert Triage (TryHackMe)
+# SOC Level 1 – Alert Triage (TryHackMe)
 
 > Understanding SOC alerts, their lifecycle, and how to properly triage them as an L1 analyst.
 
 ## Overview
 
 This room focused on SOC alerts and how analysts handle them within a Security Operations Center (SOC).
+
 It explained how alerts are generated from events, how they are analysed, and how analysts prioritise and investigate them.
 
 ---
@@ -30,7 +31,7 @@ Alerts are generated from events such as:
 
 Security systems generate large volumes of events, but only some become alerts.
 
-Process:
+### Process
 
 * Events are generated from systems
 * SIEM collects and analyses events
@@ -57,6 +58,11 @@ Each alert contains important information required for analysis.
 * Assignee → Analyst responsible
 * Description → Details of the alert
 * Fields → Technical data (IP, user, hostname)
+
+### Key Insight
+
+* Alert properties provide context for investigation
+* Accurate data is critical for decision-making
 
 ---
 
