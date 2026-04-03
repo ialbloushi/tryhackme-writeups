@@ -1,10 +1,11 @@
 SOC Level 1 – Junior Security Analyst Intro (TryHackMe)
+
 > Hands-on SOC simulation focused on alert triage, escalation, and basic incident response.
 
 ## Overview
 
-This room provided an introduction to the role of a Junior Security Analyst within a Security Operations Center (SOC).
-It covered the daily responsibilities, team structure, and included a practical simulation of handling real security alerts.
+This room introduced the role of a Junior Security Analyst within a Security Operations Center (SOC).
+It covered daily responsibilities, team structure, and included a practical simulation of handling security alerts.
 
 ---
 
@@ -14,17 +15,22 @@ A Security Operations Center (SOC) is responsible for monitoring, detecting, and
 
 ### Key Roles
 
-* **Tier 1 Analyst (Junior Analyst):**
-  Monitors alerts, performs initial triage, and escalates suspicious activity.
+* **Tier 1 Analyst (Junior Analyst)**
+  Monitors alerts, performs initial triage, and escalates suspicious activity
 
-* **Tier 2 Analyst:**
-  Investigates escalated incidents and performs deeper analysis.
+* **Tier 2 Analyst**
+  Investigates escalated incidents and performs deeper analysis
 
-* **Tier 3 Analyst (Threat Hunter):**
-  Proactively searches for hidden threats and advanced attacks.
+* **Tier 3 Analyst (Threat Hunter)**
+  Proactively searches for hidden threats and advanced attacks
 
-* **SOC Manager:**
-  Oversees the SOC team and ensures smooth operations.
+* **SOC Manager**
+  Oversees the SOC team and ensures smooth operations
+
+### Key Insight
+
+* SOC operates in multiple tiers with increasing levels of expertise
+* Clear role separation improves efficiency and incident handling
 
 ---
 
@@ -32,7 +38,7 @@ A Security Operations Center (SOC) is responsible for monitoring, detecting, and
 
 Working in a SOC involves handling a constant stream of alerts and security events.
 
-Typical tasks include:
+### Typical Tasks
 
 * Monitoring dashboards and SIEM tools
 * Investigating suspicious activities
@@ -40,7 +46,10 @@ Typical tasks include:
 * Escalating critical alerts
 * Documenting findings and actions
 
-The role requires attention to detail, quick decision-making, and the ability to follow incident response procedures.
+### Key Insight
+
+* SOC analysts handle high volumes of alerts daily
+* Structured workflows ensure consistent and effective response
 
 ---
 
@@ -68,21 +77,21 @@ In this task, I interacted with a simulated SOC environment to handle a real-wor
 
 ## Key Learnings
 
-This lab helped me understand how security analysts operate in real environments.
+This lab improved my understanding of SOC analyst responsibilities.
 
 I gained hands-on experience in:
 
 * Alert triage and investigation
 * Incident escalation procedures
-* Basic threat mitigation (blocking malicious IPs)
-* Working within a SOC workflow
+* Basic threat mitigation
+* Working within SOC workflows
 
 ---
 
 ## Personal Reflection
 
-This lab gave me my first practical exposure to how a SOC operates in a real-world scenario.
+This lab provided practical exposure to how a SOC operates in real environments.
 
-What stood out to me the most was how structured the workflow is — from detecting an alert to escalating and mitigating it. Even though the task was simple, it showed how critical each step is in preventing potential threats.
+What stood out most is how structured the workflow is — from detecting an alert to escalation and mitigation. Even simple tasks require proper handling to prevent potential threats.
 
-I’m currently focusing on developing my skills in blue team operations, and this lab was a great starting point toward that goal.
+This lab strengthened my understanding of SOC operations and the importance of following structured incident response processes.
