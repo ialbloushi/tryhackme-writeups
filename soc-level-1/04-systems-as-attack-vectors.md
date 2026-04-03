@@ -136,6 +136,11 @@ In this task, I interacted with a simulated SOC environment focused on system se
 * Applied mitigation strategies
 * Updated and secured system configurations
 
+### Key Insight
+
+* System vulnerabilities and misconfigurations require different mitigation approaches
+* Proactive system hardening reduces attack surface significantly
+
 ---
 
 ## Investigation Results
