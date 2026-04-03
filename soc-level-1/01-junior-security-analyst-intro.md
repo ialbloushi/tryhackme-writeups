@@ -1,10 +1,11 @@
-SOC Level 1 – Junior Security Analyst Intro (TryHackMe)
+# SOC Level 1 – Junior Security Analyst Intro (TryHackMe)
 
 > Hands-on SOC simulation focused on alert triage, escalation, and basic incident response.
 
 ## Overview
 
 This room introduced the role of a Junior Security Analyst within a Security Operations Center (SOC).
+
 It covered daily responsibilities, team structure, and included a practical simulation of handling security alerts.
 
 ---
@@ -64,6 +65,11 @@ In this task, I interacted with a simulated SOC environment to handle a real-wor
 * Identified a malicious IP address
 * Escalated the incident to a senior analyst
 * Blocked the IP using a firewall
+
+### Key Insight
+
+* Alert triage is the first step in incident response
+* Proper escalation ensures threats are handled effectively
 
 ---
 
