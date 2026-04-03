@@ -25,6 +25,14 @@ This repository documents my hands-on cybersecurity learning journey through Try
 
 ---
 
+### 🔹 SOC Team Internals
+
+| #  | Room              | Status |
+|----|------------------|--------|
+| 05 | [Alert Triage](./soc-level-1/05-alert-triage.md) | ✅ |
+
+---
+
 ## 🚀 About This Repository
 
 Each write-up focuses on:
