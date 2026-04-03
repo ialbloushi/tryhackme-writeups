@@ -4,23 +4,11 @@
 
 ## Overview
 
-This room builds on the fundamentals of alert triage by introducing what happens after an alert is classified.
+This room focused on what happens after alert triage within a SOC environment.
 
-It focuses on how a Junior Security Analyst handles alerts in a real SOC environment, including writing professional reports, escalating incidents, and communicating with other teams.
+It explained how a Junior Security Analyst handles alerts by writing reports, escalating incidents, and communicating with other teams.
 
-The lab also includes practical interaction with a simulated SOC dashboard to reinforce these concepts.
-
----
-
-## Learning Objectives
-
-By completing this room, I learned:
-
-* The importance of alert reporting and escalation in a SOC
-* How to write clear and structured alert reports
-* Best practices for escalation and communication
-* How alerts move through the SOC workflow
-* Improved confidence working in a SOC simulation environment
+The lab also included practical interaction with a simulated SOC dashboard.
 
 ---
 
@@ -31,7 +19,7 @@ The SOC workflow follows a structured pipeline to handle alerts efficiently.
 ### Flow Explanation
 
 * **L1 Analysts:**
-  Handle large volumes of alerts, most of which are false positives, and perform initial triage
+  Handle large volumes of alerts and perform initial triage
 
 * **L2 Analysts:**
   Investigate escalated alerts and confirm true positives
@@ -39,7 +27,10 @@ The SOC workflow follows a structured pipeline to handle alerts efficiently.
 * **DFIR Team:**
   Handles incident response, forensics, and advanced threats
 
-The goal is to filter out noise and focus only on real security incidents.
+### Key Insight
+
+* Alerts are filtered through multiple layers
+* The goal is to reduce noise and focus on real threats
 
 ---
 
@@ -54,6 +45,11 @@ Before escalating an alert, proper documentation is required.
 * Preserve important evidence
 * Improve analytical and reporting skills
 
+### Key Insight
+
+* A clear report improves investigation efficiency
+* Poor documentation can delay response
+
 ---
 
 ## Report Format (5W Method)
@@ -66,11 +62,27 @@ A well-written report follows the 5Ws:
 * **Where:** The source (IP, device, or URL)
 * **Why:** The reasoning behind the verdict
 
+### Key Insight
+
+* Structured reporting ensures consistency
+* The 5W method simplifies investigations
+
 ---
 
-## Practical Investigation Results
+## Practical Simulation
 
-During the simulation, I identified the following:
+In this task, I interacted with a simulated SOC environment.
+
+### Actions Performed
+
+* Reviewed the alert details
+* Identified suspicious email activity
+* Analysed user and sender information
+* Submitted an alert report
+
+---
+
+## Investigation Results
 
 * **Leaked Email User:** [m.boslan@tryhackme.thm](mailto:m.boslan@tryhackme.thm)
 * **Suspicious Email Sender:** [support@microsoft.com](mailto:support@microsoft.com)
@@ -95,6 +107,11 @@ Escalation is required when an alert needs deeper analysis or action.
 * Selected the appropriate verdict
 * Submitted a detailed report
 
+### Key Insight
+
+* Escalation ensures proper handling of incidents
+* Critical alerts require higher-level investigation
+
 ---
 
 ## Escalation Results
@@ -116,6 +133,11 @@ Communication is critical in SOC operations.
 * Prioritize alerts during high-volume situations
 * Report mistakes immediately
 * Report system issues such as SIEM failures
+
+### Key Insight
+
+* Effective communication improves incident response
+* Coordination between teams is essential
 
 ---
 
@@ -144,7 +166,7 @@ I gained hands-on experience in:
 
 This lab showed that alert triage is only the first step in a SOC analyst’s workflow.
 
-The most important takeaway was how critical clear reporting and communication are. A poorly written report can slow down the entire investigation process, even if the alert is correctly identified.
+What stood out most is how important clear reporting and communication are. A well-written report helps speed up investigations and improves collaboration between teams.
 
 The escalation process also highlighted the importance of teamwork within a SOC environment.
 
